@@ -1,0 +1,17 @@
+/* 
+
+header {
+    height: 90px;
+    background-color: rgb(69, 59, 47);
+    padding: 30px 25px;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}   
+
+.navBar img{
+    width: 40px;
+} */

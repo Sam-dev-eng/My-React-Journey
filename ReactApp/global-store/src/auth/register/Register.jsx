@@ -1,7 +1,7 @@
 import { Link } from "react-router"
 import styles from "./Register.module.css"
 import { useState } from "react"
-import useRegister from "../../hooks/useRegister"
+import useRegister from "../../costomeHooks/useRegister"
 
 const register = () => {
     const[firstName,setFirstName] = useState("");

@@ -1,0 +1,112 @@
+
+
+.formStyle{
+   
+    width: 30%;
+    margin: 20px;
+    display: flex;
+    flex-direction:column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+
+form input{
+    background-color: white;
+    border-color : rgb(132, 129, 129);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 6px;
+    color:blue;
+    height: 50px;
+    width:80%;
+    margin:auto;
+    margin-bottom: 12px;
+    padding-left: 30px;
+    font-size: 20px;
+
+}
+.loginButton{
+    background-color: blue;
+    border-color : rgb(26, 6, 244);
+    border-style:solid;
+    border-radius:6px;
+    width: 80%;
+    
+    height: 50px;
+    font-size: 20px;
+    color:white
+}
+
+.forgetPassword{
+    text-align: end;
+    margin-left: 200px;
+    
+}
+.forgetPassword a{
+    color :rgb(5, 5, 247)
+}
+.orSign{
+    display:flex;
+    align-items: center;
+}
+.orSign hr{
+    width: 230px;
+    height: 0px;
+}
+
+.underButtons{
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    padding: 10px
+}
+
+.underButtons button{
+    background-color: white;
+    border-color: rgba(103, 119, 136, 0.935);
+    height: 50px;
+    width: 40%;
+    border-radius: 10px;
+    font-size: large;
+    
+}
+
+.underButtons button img{
+    align-items: center;
+
+}
+
+.signUpLink{
+    display:flex;
+    align-items: center; 
+    justify-content : space-between;
+    
+}
+
+.backgroundPics{
+   
+    width: 100%;
+    /* display:flex; */
+    align-items: end;
+    
+}
+
+.backgroundPics img{
+    
+    width: 100%;
+    height: 100%;
+}
+
+.boardHeader{
+    
+    display: flex;
+    width: 100%;
+}
+
+form h1{
+    margin: left 100px;
+}
+

@@ -1,0 +1,35 @@
+.search-bar {
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto;
+  position: relative;
+
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 16px;
+  border-radius: 25px;
+  border: 1px solid #ddd;
+  outline: none;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+  padding-left: 40px;
+}
+
+.search-bar input::placeholder {
+  color: #aaa;
+}
+
+.search-bar input:focus {
+  border-color: #1dbf73; /* Fiverr green vibe */
+  box-shadow: 0 0 0 3px rgba(29, 191, 115, 0.15);
+}
+
+.search-bar .icon {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa;
+}

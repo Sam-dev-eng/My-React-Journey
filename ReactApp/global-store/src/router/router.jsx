@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router";
 import Login from "../auth/login/Login"
 import Register from "../auth/register/Register"
-//  takes an array of objects of type router
+import Products from "../component/Products"
 const router = createBrowserRouter([
 {
     path: "/",
@@ -10,6 +10,10 @@ const router = createBrowserRouter([
 { 
     path:"/register",
     element: <Register/>
-}
+},
+{
+    path: "/products",
+    element: <Products/>
+},
 ])                                                                                              
 export default router;

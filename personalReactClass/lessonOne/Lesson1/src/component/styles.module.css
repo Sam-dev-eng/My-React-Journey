@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    font-family: inter,sans-serif;
+    background-color: rgba(12, 12, 12, 0.715);
+    color: white;
+    
+}
+
+header {
+    height: 90px;
+    background-color: rgb(6, 0, 0);
+    padding: 30px 25px;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}   
+
+.navBar img{
+    width: 40px;
+}
+
+.navBar span{
+   color: rgb(55, 139, 169);
+   padding: 7px;
+   font-size: 1.3rem;
+}
+
+.mainBody{
+    padding: 20px;
+    background-color: black;
+    background-image: url(../assets/react.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+}
+
+.lists{
+    margin-top: 50px;
+}
+.lists li::marker {
+    color:  rgba(16, 170, 227, 0.906);
+    font-size: 30px;
+}
+
+.lists li{
+    padding-block: 10px;
+}
+

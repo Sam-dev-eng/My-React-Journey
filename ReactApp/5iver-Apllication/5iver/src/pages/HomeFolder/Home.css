@@ -1,0 +1,12 @@
+
+.home {
+  padding: 20px 40px;
+}
+
+
+.gig-grid {
+   
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}

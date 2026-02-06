@@ -1,10 +1,13 @@
 import { configureStore } from "@reduxjs/toolkit";
-import counterReducer from "../feature/counterSlice"
+import {productApi} from "../apis/productApis";
+import {loginApi} from "../apis/loginApi";
 
 export const store = configureStore({
     reducer: {
-        counter : counterReducer
-    }
+        [productApi.reducerPath]:productApi.reducer,
+        [loginApi.reducerPath] : loginApi.reducer
+    },
+    middleware: (getDefaultMiddleware)=>(getDefaultMiddleware().concat(productApi.middleware,loginApi.middleware))
 });
 export default store;
 
